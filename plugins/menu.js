@@ -8,21 +8,6 @@ const defaultMenu = {
   before: `
 ┌─〔 %me 〕
 ├ Hai, %name!
-│
-├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)* [%xp4levelup]
-├ %totalexp XP secara Total
-│ 
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
-│
-├ Uptime: *%uptime (%muptime)*
-├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
-└────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
   body: '├ %cmd %islimit %isPremium',
@@ -189,104 +174,104 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© stikerin",
-          "buttonText": "Klik Disini",
+          "description": "© botkingdom",
+          "buttonText": "click",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `Semua Perintah`,
+                  "title": `🪀FULL MENU`,
                   "description": "",
                   "rowId": ".? all"
                 }, {
-                  "title": "Game",
+                  "title": "🪀Game",
                   "description": "",
                   "rowId": ".? game"
 
                 }, {
-                  "title": "XP",
+                  "title": "🪀XP",
                   "description": "",
                   "rowId": ".? xp"
 
                 }, {
-                  "title": "Stiker",
+                  "title": "🪀Stiker",
                   "description": "",
                   "rowId": ".? stiker"
                 }, {
-                  "title": "Kerang Ajaib",
+                  "title": "🪀Kerang Ajaib",
                   "description": "",
                   "rowId": ".? kerangajaib"
                 }, {
-                  "title": "Quotes",
+                  "title": "🪀Quotes",
                   "description": "",
                   "rowId": ".? quotes"
                 }, {
-                  "title": "Admin",
+                  "title": "🪀Admin",
                   "description": "",
                   "rowId": ".? admin"
                 }, {
-                  "title": "Grup",
+                  "title": "🪀Grup",
                   "description": "",
                   "rowId": ".? grup"
                 }, {
-                  "title": "Premium",
+                  "title": "🪀Premium",
                   "description": "",
                   "rowId": ".? premium"
                 }, {
-                  "title": "Internet",
+                  "title": "🪀Internet",
                   "description": "",
                   "rowId": ".? internet"
                 }, {
-                  "title": "Anonymous",
+                  "title": "🪀Anonymous",
                   "description": "",
                   "rowId": ".? anonymous"
                 }, {
-                  "title": "Nulis & Logo",
+                  "title": "🪀Nulis & Logo",
                   "description": "",
                   "rowId": ".? nulis"
                 }, {
-                  "title": "Downloader",
+                  "title": "🪀Downloader",
                   "description": "",
                   "rowId": ".? downloader"
                 }, {
-                  "title": "Tools",
+                  "title": "🪀Tools",
                   "description": "",
                   "rowId": ".? tools"
                 }, {
-                  "title": "Fun",
+                  "title": "🪀Fun",
                   "description": "",
                   "rowId": ".? fun"
                 }, {
-                  "title": "Database",
+                  "title": "🪀Database",
                   "description": "",
                   "rowId": ".? database"
                 }, {
-                  "title": "Vote & Absen",
+                  "title": "🪀Vote & Absen",
                   "description": "",
                   "rowId": ".? vote"
                 }, {
-                  "title": "Al-Qur\'an",
+                  "title": "",
                   "description": "",
                   "rowId": ".? quran"
                 }, {
-                  "title": "Pengubah Suara",
+                  "title": "🪀Pengubah Suara",
                   "description": "",
                   "rowId": ".? audio"
                 }, {
-                  "title": "Jadi Bot",
+                  "title": "🪀Jadi Bot",
                   "description": "",
                   "rowId": ".? jadibot"
                 }, {
-                  "title": "Info",
+                  "title": "🪀Info",
                   "description": "",
                   "rowId": ".? info"
                 }, {
-                  "title": "Tanpa Kategori",
+                  "title": "🪀Tanpa Kategori",
                   "description": "",
                   "rowId": ".? tanpakategori"
                 }, {
-                  "title": "Owner",
+                  "title": "🪀Owner",
                   "description": "",
                   "rowId": ".? owner"
                 }
@@ -377,7 +362,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by ariffb', 'Pemilik Bot', '.owner', 'Donasi', '.donasi', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch(fla + teks)).buffer(), text.trim(), 'made with ❤️ by supuna', 'maingroup', '.donasi', 'CLONE', '.jadibot', m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
@@ -410,19 +395,19 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari"
+  const time = moment.tz('Asia/Colombo').format('HH')
+  res = "වෙල්කම්"
   if (time >= 4) {
-    res = "Selamat pagi"
+    res = "ගුඩ් මෝනිං"
   }
   if (time > 10) {
-    res = "Selamat siang"
+    res = "සුබ දහවලක්"
   }
   if (time >= 15) {
-    res = "Selamat sore"
+    res = "සුබ සවසක්"
   }
   if (time >= 18) {
-    res = "Selamat malam"
+    res = "ගුඩ් නයිට් පරිස්සමින් ඉන්න"
   }
   return res
 }
