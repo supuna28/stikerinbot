@@ -1,7 +1,7 @@
 {
   "name": "stikerinbot",
   "version": "1.1.2",
-  "description": "WhatsApp Bot Ringan",
+  "description": "bot kingdom bot",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -9,12 +9,12 @@
     "plugins": "plugins"
   },
   "scripts": {
-    "start": "node index.js --self",
+    "start": "node index.js --public",
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariffb25/stikerinbot.git"
+    "url": "PRIVATE"
   },
   "keywords": [
     "whatsapp-bot"
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/ariffb25/stikerinbot/issues"
   },
-  "homepage": "https://github.com/ariffb25/stikerinbot",
+  "homepage": "PRIVATE",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.54.0",
