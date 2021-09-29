@@ -8,6 +8,8 @@ const defaultMenu = {
   before: `
 ┌─〔 %me 〕
 ├ Hai, %name!
+
+❤️‍🔥
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
   body: '├ %cmd %islimit %isPremium',
