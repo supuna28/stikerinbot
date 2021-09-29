@@ -16,7 +16,7 @@ async function wikipedia(querry) {
       const data = {
         status: link.status,
         result: {
-          judul: judul,
+          name: judul,
           thumb: 'https:' + thumb,
           isi: i
         }
