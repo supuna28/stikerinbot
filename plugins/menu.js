@@ -184,97 +184,97 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `ALL MENU`,
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? all"
                 }, {
                   "title": "Game",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? game"
 
                 }, {
                   "title": "XP",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? xp"
 
                 }, {
                   "title": "Stiker",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? stiker"
                 }, {
                   "title": "Kerang Ajaib",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? kerangajaib"
                 }, {
                   "title": "Quotes",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? quotes"
                 }, {
                   "title": "Admin",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? admin"
                 }, {
                   "title": "Grup",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? grup"
                 }, {
                   "title": "Premium",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? premium"
                 }, {
                   "title": "Internet",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? internet"
                 }, {
                   "title": "Anonymous",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? anonymous"
                 }, {
                   "title": "Nulis & Logo",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? nulis"
                 }, {
                   "title": "Downloader",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? downloader"
                 }, {
                   "title": "Tools",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? tools"
                 }, {
                   "title": "Fun",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? fun"
                 }, {
                   "title": "Database",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? database"
                 }, {
                   "title": "Vote & Absen",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? vote"
                 }, {
                   "title": "Al-Qur\'an",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? quran"
                 }, {
                   "title": "Pengubah Suara",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? audio"
                 }, {
                   "title": "Jadi Bot",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? jadibot"
                 }, {
                   "title": "Info",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? info"
                 }, {
                   "title": "Tanpa Kategori",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? tanpakategori"
                 }, {
                   "title": "Owner",
-                  "description": "",
+                  "description": "🪀",
                   "rowId": ".? owner"
                 }
               ]
